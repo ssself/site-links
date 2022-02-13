@@ -1,0 +1,212 @@
+@charset "windows-1251";
+body {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	/* [disabled]margin-bottom: 10px; */
+	
+}
+
+#tablet {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	overflow: visible;
+	left: 20px;
+	top: 20px;
+	background-color: #FFFFFF;
+	}
+
+.comment
+{
+	font-family: ISOCPEUR, "Lucida Console";
+	font-size: small;
+	font-weight: lighter;
+	font-style: normal;
+	}
+
+.none
+{
+	font-family: ISOCPEUR, Italic, "Comic Sans MS";
+	font-size: small;
+	font-weight: lighter;
+	font-style: normal;
+	color: #999999;
+	}
+
+body,td {
+	font-family: ISOCPEUR, "Lucida Console";
+	font-size: medium;
+	font-weight: normal;
+	color: #000033;
+	font-style: normal;
+}
+
+a {
+	font-family: ISOCPEUR, "Lucida Console";
+	font-size: medium;
+	font-weight: normal;
+    font-style: normal;
+}
+
+a:link {
+	text-decoration: none;
+	color: #006600;
+	font-family: ISOCPEUR, "Lucida Console";
+	font-size: medium;
+	font-style: normal;
+	font-weight: normal;
+	
+}
+
+a:visited {
+	color: #009900;
+	text-decoration: none;
+	font-family: ISOCPEUR, "Lucida Console";
+	font-size: medium;
+	font-style: normal;
+	font-weight: normal;
+}
+a:hover {
+	color: #006600;
+	text-decoration: underline;
+	font-family: ISOCPEUR, "Lucida Console";
+	font-size: medium;
+	font-style: normal;
+	font-weight: normal;
+}
+a:active {
+	color: #FF0000;
+	text-decoration: none;
+	font-family: ISOCPEUR, "Lucida Console";
+	font-size: medium;
+	font-style: normal;
+	font-weight: normal;
+	
+}
+
+.signal
+{
+	font-family: ISOCPEUR, "Lucida Console";
+	font-size: medium;
+	font-weight: normal;
+	font-style: normal;
+	color: #FF0000;
+	
+}
+.signal_strong {
+	font-family: ISOCPEUR, "Lucida Console";
+	font-size: medium;
+	font-weight: bold;
+	font-style: normal;
+	color: #FF0000;
+}
+.blue {
+	font-family: ISOCPEUR, "Lucida Console";
+	font-size: medium;
+	font-weight: normal;
+	font-style: normal;
+	color: #00F;
+}
+.maybe {
+	font-family: ISOCPEUR, "Lucida Console";
+	font-size: medium;
+	font-weight: normal;
+	font-style: normal;
+	color: #000;
+	background-color: #FFC;
+}
+.title {
+	font-family: ISOCPEUR, "Lucida Console";
+	font-size: smaller;
+	font-weight: lighter;
+	font-style: normal;
+	letter-spacing: 0.3em;
+	word-spacing: normal;
+}
+.contrast {
+	font-family: ISOCPEUR, Italic, "Comic Sans MS";
+	font-size: 18px;
+	font-weight: bold;
+	font-style: normal;
+	color: #FFF;
+	}
+	
+.time {
+	font-family: ISOCPEUR, "Lucida Console";
+	font-size: smaller;
+	font-weight: lighter;
+	font-style: normal;
+	color: #999;
+}
+/* стили таблицы  с сортровкой */	
+	table.sort {
+	/*border-spacing:0em;*/
+}
+
+table.sort td{
+	background-color: #FFF;
+	/*margin: 0.01em;
+	font-size: small;
+	padding-top: 0.1em;
+	padding-right: 0.5em;
+	padding-bottom: 0.1em;
+	padding-left: 0.5em; */
+}
+
+
+table.sort thead td{
+	cursor:pointer;
+	cursor:hand;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+	background-color: #CFC;
+}
+
+table.sort thead td.curcol{
+	background-color:#9C9;
+	color:#FFFFFF
+}
+/*table.sortable{border:0; padding:0; margin:0;}
+table.sortable td{padding:4px; width:120px; border-bottom:solid 1px #DEDEDE;}
+table.sortable th{padding:4px;}
+table.sortable thead{background:#e3edef; color:#333333; text-align:left;}
+table.sortable tfoot{font-weight:bold; }
+table.sortable tfoot td{border:none;}*/	
+.camp {
+	font-family: ISOCPEUR, "Lucida Console";
+	font-size: medium;
+	font-weight: bold;
+	font-style: normal;
+	color: #060;
+}
+.buy {
+	font-family: ISOCPEUR, "Lucida Console";
+	font-size: medium;
+	font-weight: bold;
+	font-style: normal;
+	color: #009;
+}
+.host {
+	font-family: ISOCPEUR, "Lucida Console";
+	font-size: medium;
+	font-weight: bold;
+	font-style: normal;
+	color: #960;
+}
+.care {
+	font-family: ISOCPEUR, "Lucida Console";
+	font-size: medium;
+	font-weight: bold;
+	font-style: normal;
+	color: #C60;
+}
+.connect {
+	font-family: ISOCPEUR, "Lucida Console";
+	font-size: medium;
+	font-weight: bold;
+	font-style: normal;
+	color: #609;
+}
